@@ -10,15 +10,18 @@
 <h1>Scegli l'operazione da effettuare</h1>
 <form action="contaParole" method="post">
 <input type="hidden" name="sceltaTesto" value= "${sceltaTesto}">
-<button type="button">Conta Parole</button>
+<button type="submit" value="Submit">Conta Parole</button>
 </form>
+
 <form action="contaVocali" method="post">
-<button type="button">Conta Vocali</button>
 <input type="hidden" name="sceltaTesto" value= "${sceltaTesto}">
+<button type="submit" value="Submit">Conta Vocali</button>
 </form>
+
 <form action="contaConsonanti" method="post">
-<button type="button">Conta Consonanti</button>
 <input type="hidden" name="sceltaTesto" value= "${sceltaTesto}">
+<button type="submit" value="Submit">Conta Consonanti</button>
 </form>
+
 </body>
 </html>

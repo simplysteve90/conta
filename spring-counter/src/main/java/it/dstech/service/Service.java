@@ -33,5 +33,23 @@ public class Service {
         }
         return count;
     }
-	
+	public boolean isConsonant(char ch) 
+    { 
+        ch = Character.toUpperCase(ch); 
+       
+        return !(ch == 'A' || ch == 'E' ||  
+                ch == 'I' || ch == 'O' ||  
+                ch == 'U') && ch >= 65 && ch <= 90; 
+    } 
+	 public int contaConsonanti() 
+	    { 
+		 String str=testo;
+	        int count = 0; 
+	        for (int i = 0; i < str.length(); i++)  
+	       
+	            // To check is character is Consonant 
+	            if (isConsonant(str.charAt(i))) 
+	                ++count; 
+	        return count; 
+	    } 
 }
