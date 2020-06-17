@@ -20,5 +20,18 @@ public class Service {
         return count;
 	
 	}
+	public  int contaVocali(){
+		String parole= testo;
+        int count = 0;
+        for (int i = 0; i < parole.length(); i++)
+        {
+            if (parole.charAt(i) == 'a' || parole.charAt(i) == 'e' || parole.charAt(i) == 'i'
+                    || parole.charAt(i) == 'o' || parole.charAt(i) == 'u')
+            {
+                count++;
+            }
+        }
+        return count;
+    }
 	
 }
