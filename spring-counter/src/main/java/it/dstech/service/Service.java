@@ -33,7 +33,7 @@ public class Service {
         }
         return count;
     }
-	public boolean isConsonant(char ch) 
+	public boolean controlloConsonante(char ch) 
     { 
         ch = Character.toUpperCase(ch); 
        
@@ -48,7 +48,7 @@ public class Service {
 	        for (int i = 0; i < str.length(); i++)  
 	       
 	            // To check is character is Consonant 
-	            if (isConsonant(str.charAt(i))) 
+	            if (controlloConsonante(str.charAt(i))) 
 	                ++count; 
 	        return count; 
 	    } 
