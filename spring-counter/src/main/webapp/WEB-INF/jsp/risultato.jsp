@@ -7,6 +7,6 @@
 <title>Insert title here</title>
 </head>
 <body>
-<p>il risultato della tua scelta e': ${risultato}</p>
+<h1>il risultato della tua scelta e': ${risultato}</h1>
 </body>
 </html>
